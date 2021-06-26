@@ -1,0 +1,159 @@
+
+body,h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  font-size: 16px;
+}
+nav a {
+  color: #babfc5;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  color: #666666;
+}
+h6 {
+
+  color: #666666;
+}
+
+  .wrapper{
+    background: #f5f7fb; color: black; 
+    
+   
+   
+  }
+  .sidenav {
+    height: 100%;
+    width: 8%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: black;
+  }
+  .sidenav .nav_header{
+    margin: 0px 0px;
+    padding:15px 30px;
+    background-color: rgb(165, 195, 212);
+    color: #243040;
+}
+
+
+/* Placeholder styling */
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  
+  opacity: 1; /* Firefox */
+  font-family: Poppins;
+  font-size: 12px !important;
+}
+/* Site Icon position */
+.input-group-text{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    margin-left: -45px;
+    margin-right: 25px;
+    z-index: 1;
+    background-color: transparent !important;
+    border: none !important;
+    
+}
+/* pills */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #666666 !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid #666666 !important;
+  font-weight: bold;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0PX !important;
+}
+
+.images {
+  width: 30px;
+  border-left: 2px solid #ffffff;
+}
+.img-alignment {
+  margin-left: -15px;
+  
+}
+.colours{
+  color: #313f65;
+}
+.btn-colours{
+  background-color: #313f65 !important;
+  border: none !important;
+}
+.material-icons.md-24 { 
+  font-size: 40px; 
+}
+  
+  .sidenav ul.components {
+    
+    display: flex;
+    flex-direction: column;
+}
+  
+  .sidenav ul li a {
+    font-size: 14px;
+    display: block;
+    color: rgb(8, 8, 8);
+}
+  .sidenav ul li a span {
+
+    display: inline-flex !important;
+    vertical-align: middle;
+    font-size: 20px;
+    padding-right: 10px;
+}
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 8%; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    /* padding: 0px 10px; */
+    
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  /* body.dark-theme {
+    background: #121212; color: white; 
+  }
+   */
+  /* body.dark-theme {
+    filter: brightness(.8) contrast(1.2);
+  } */
+  
+  /* @media (prefers-color-scheme: dark) { */
+    /* defaults to dark theme */
+    /* body {
+        background: #333; color: white; 
+    }
+    body.light-theme {
+        background: #eee; color: black; 
+    }
+  } */
+  
+  /* * {
+    font-family: Arial, Helvetica, sans-serif;
+  } */
+  
+  /* body {
+    background: var(--bkg-color);
+  } */
+  
+  /* h1,
+  p {
+    color: var(--text-color);
+  } */
